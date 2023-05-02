@@ -1,0 +1,557 @@
+.supervisorhomepage-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: 5%;
+  justify-content: flex-start;
+  background-color: rgba(255, 248, 238, 1);
+}
+.supervisorhomepage-nav-bar {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: var(--dl-color-default-blue);
+}
+.supervisorhomepage-navlink {
+  display: contents;
+}
+.supervisorhomepage-homeicon {
+  align-self: center;
+  max-height: 75%;
+  padding-top: 1vh;
+  border-width: 0px;
+  margin-right: 2%;
+  border-radius: 0px;
+  padding-bottom: 1vh;
+  text-decoration: none;
+}
+.supervisorhomepage-navlink01 {
+  display: contents;
+}
+.supervisorhomepage-usericon {
+  align-self: center;
+  max-height: 75%;
+  padding-top: 1vh;
+  padding-right: 2%;
+  padding-bottom: 1vh;
+  text-decoration: none;
+}
+.supervisorhomepage-content {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.supervisorhomepage-heading {
+  align-self: flex-start;
+}
+.supervisorhomepage-students {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.supervisorhomepage-student1 {
+  width: 48%;
+  height: 30vh;
+  margin: 1%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-radius: 3vw;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-default-lightgreen);
+}
+.supervisorhomepage-left-side {
+  width: 50%;
+  height: 90%;
+  margin: 2%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.supervisorhomepage-text02 {
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  align-self: center;
+  margin-top: 7%;
+  text-align: center;
+  font-stretch: normal;
+  margin-bottom: 7%;
+}
+.supervisorhomepage-navlink02 {
+  display: contents;
+}
+.supervisorhomepage-feedback-button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  border-radius: 3vw;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-default-blue);
+}
+.supervisorhomepage-text04 {
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  text-align: center;
+  font-stretch: normal;
+}
+.supervisorhomepage-navlink03 {
+  display: contents;
+}
+.supervisorhomepage-meeting-button {
+  width: 50%;
+  height: 90%;
+  margin: 2%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-radius: 3vw;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-default-blue);
+}
+.supervisorhomepage-frameiconcalendaroutline {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.supervisorhomepage-group {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: center;
+}
+.supervisorhomepage-vector {
+  top: 0px;
+  left: 0px;
+  width: 121px;
+  height: 125px;
+  position: absolute;
+}
+.supervisorhomepage-vector01 {
+  top: 81.25px;
+  left: 26.81744956970215px;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+}
+.supervisorhomepage-vector02 {
+  top: 81.25px;
+  left: 53.634742736816406px;
+  width: 40px;
+  height: 13px;
+  position: absolute;
+}
+.supervisorhomepage-text06 {
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  text-align: center;
+  font-stretch: normal;
+}
+.supervisorhomepage-student-2 {
+  width: 48%;
+  height: 30vh;
+  margin: 1%;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  border-radius: 3vw;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-default-orange);
+}
+.supervisorhomepage-left-side1 {
+  width: 50%;
+  height: 90%;
+  margin: 2%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.supervisorhomepage-text08 {
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  align-self: center;
+  margin-top: 7%;
+  text-align: center;
+  font-stretch: normal;
+  margin-bottom: 7%;
+}
+.supervisorhomepage-navlink04 {
+  display: contents;
+}
+.supervisorhomepage-feedback-button1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  border-radius: 3vw;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-default-blue);
+}
+.supervisorhomepage-text10 {
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  text-align: center;
+  font-stretch: normal;
+}
+.supervisorhomepage-navlink05 {
+  display: contents;
+}
+.supervisorhomepage-meeting-button1 {
+  width: 50%;
+  height: 90%;
+  margin: 2%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-radius: 3vw;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-default-blue);
+}
+.supervisorhomepage-frameiconcalendaroutline1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.supervisorhomepage-group1 {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: center;
+}
+.supervisorhomepage-vector03 {
+  top: 0px;
+  left: 0px;
+  width: 121px;
+  height: 125px;
+  position: absolute;
+}
+.supervisorhomepage-vector04 {
+  top: 81.25px;
+  left: 26.81744956970215px;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+}
+.supervisorhomepage-vector05 {
+  top: 81.25px;
+  left: 53.634742736816406px;
+  width: 40px;
+  height: 13px;
+  position: absolute;
+}
+.supervisorhomepage-text12 {
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  text-align: center;
+  font-stretch: normal;
+}
+.supervisorhomepage-student-3 {
+  width: 48%;
+  height: 30vh;
+  margin: 1%;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  border-radius: 3vw;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-default-red);
+}
+.supervisorhomepage-left-side2 {
+  width: 50%;
+  height: 90%;
+  margin: 2%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.supervisorhomepage-text14 {
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  align-self: center;
+  margin-top: 7%;
+  text-align: center;
+  font-stretch: normal;
+  margin-bottom: 7%;
+}
+.supervisorhomepage-navlink06 {
+  display: contents;
+}
+.supervisorhomepage-feedback-button2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  border-radius: 3vw;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-default-blue);
+}
+.supervisorhomepage-text16 {
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  align-self: center;
+  text-align: center;
+  font-stretch: normal;
+}
+.supervisorhomepage-navlink07 {
+  display: contents;
+}
+.supervisorhomepage-meeting-button2 {
+  width: 50%;
+  height: 90%;
+  margin: 2%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-radius: 3vw;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-default-blue);
+}
+.supervisorhomepage-frameiconcalendaroutline2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.supervisorhomepage-group2 {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: center;
+}
+.supervisorhomepage-vector06 {
+  top: 0px;
+  left: 0px;
+  width: 128px;
+  height: 125px;
+  position: absolute;
+}
+.supervisorhomepage-vector07 {
+  top: 81.25px;
+  left: 28.544710159301758px;
+  width: 14px;
+  height: 13px;
+  position: absolute;
+}
+.supervisorhomepage-vector08 {
+  top: 81.25px;
+  left: 57.08952331542969px;
+  width: 43px;
+  height: 13px;
+  position: absolute;
+}
+.supervisorhomepage-text18 {
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  text-align: center;
+  font-stretch: normal;
+}
+.supervisorhomepage-student4 {
+  width: 48%;
+  height: 30vh;
+  margin: 1%;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  border-radius: 3vw;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-default-yellow);
+}
+.supervisorhomepage-left-side3 {
+  width: 50%;
+  height: 90%;
+  margin: 2%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.supervisorhomepage-text20 {
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  align-self: center;
+  margin-top: 7%;
+  text-align: center;
+  font-stretch: normal;
+  margin-bottom: 7%;
+}
+.supervisorhomepage-navlink08 {
+  display: contents;
+}
+.supervisorhomepage-feedback-button3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  border-radius: 3vw;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-default-blue);
+}
+.supervisorhomepage-text22 {
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  align-self: center;
+  text-align: center;
+  font-stretch: normal;
+}
+.supervisorhomepage-navlink09 {
+  display: contents;
+}
+.supervisorhomepage-meeting-button3 {
+  width: 50%;
+  height: 90%;
+  margin: 2%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-radius: 3vw;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-default-blue);
+}
+.supervisorhomepage-frameiconcalendaroutline3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.supervisorhomepage-group3 {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: center;
+}
+.supervisorhomepage-vector09 {
+  top: 0px;
+  left: 0px;
+  width: 124px;
+  height: 125px;
+  position: absolute;
+}
+.supervisorhomepage-vector10 {
+  top: 81.25px;
+  left: 27.518699645996094px;
+  width: 14px;
+  height: 13px;
+  position: absolute;
+}
+.supervisorhomepage-vector11 {
+  top: 81.25px;
+  left: 55.0372314453125px;
+  width: 41px;
+  height: 13px;
+  position: absolute;
+}
+.supervisorhomepage-text24 {
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-stretch: normal;
+}
+@media(max-width: 991px) {
+  .supervisorhomepage-homeicon {
+    right: 11%;
+    max-width: auto;
+    align-self: center;
+  }
+  .supervisorhomepage-usericon {
+    margin-left: 2%;
+  }
+}
+@media(max-width: 767px) {
+  .supervisorhomepage-homeicon {
+    right: 13%;
+    align-self: center;
+  }
+}
+@media(max-width: 479px) {
+  .supervisorhomepage-homeicon {
+    margin-right: 2%;
+  }
+}

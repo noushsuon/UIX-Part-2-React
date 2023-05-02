@@ -1,0 +1,276 @@
+.studenthomepage-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: 5%;
+  justify-content: flex-start;
+  background-color: rgba(255, 248, 238, 1);
+}
+.studenthomepage-nav-bar {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: var(--dl-color-default-blue);
+}
+.studenthomepage-navlink {
+  display: contents;
+}
+.studenthomepage-homeicon {
+  align-self: center;
+  max-height: 75%;
+  padding-top: 1vh;
+  border-width: 0px;
+  margin-right: 2%;
+  border-radius: 0px;
+  padding-bottom: 1vh;
+  text-decoration: none;
+}
+.studenthomepage-navlink1 {
+  display: contents;
+}
+.studenthomepage-usericon {
+  align-self: center;
+  max-height: 75%;
+  padding-top: 1vh;
+  padding-right: 2%;
+  padding-bottom: 1vh;
+  text-decoration: none;
+}
+.studenthomepage-content {
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.studenthomepage-left-side {
+  width: 60%;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.studenthomepage-greeting {
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: auto;
+  font-size: 7vw;
+  align-self: flex-start;
+  font-style: Regular;
+  text-align: left;
+  font-family: Hermeneus One;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-transform: none;
+  text-decoration: none;
+}
+.studenthomepage-slider {
+  width: auto;
+  height: 90px;
+  margin: 2%;
+  align-self: flex-start;
+}
+.studenthomepage-navlink2 {
+  display: contents;
+}
+.studenthomepage-meeting {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 2%;
+  position: relative;
+  align-self: flex-start;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius4);
+  justify-content: flex-start;
+  text-decoration: none;
+  background-color: var(--dl-color-default-blue);
+}
+.studenthomepage-calendar {
+  width: 30%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  align-items: center;
+  flex-shrink: 1;
+  flex-direction: row;
+  justify-content: center;
+}
+.studenthomepage-vector {
+  top: 0px;
+  left: 0px;
+  width: 127px;
+  height: 142px;
+  position: absolute;
+}
+.studenthomepage-vector1 {
+  top: 92.08332824707031px;
+  left: 28.33333396911621px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.studenthomepage-vector2 {
+  top: 92.08332824707031px;
+  left: 56.66666793823242px;
+  width: 42px;
+  height: 14px;
+  position: absolute;
+}
+.studenthomepage-text01 {
+  color: rgb(0, 0, 0);
+  width: 70%;
+  height: 100%;
+  font-size: 2.5vw;
+  align-self: center;
+  font-style: Regular;
+  text-align: left;
+  font-family: Hind;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+}
+.studenthomepage-text02 {
+  font-size: 3vw;
+  font-weight: 400;
+  line-height: normal;
+}
+.studenthomepage-text03 {
+  text-transform: none;
+}
+.studenthomepage-text04 {
+  text-transform: none;
+}
+.studenthomepage-feedback-side {
+  width: 35%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.studenthomepage-feedback-title {
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  font-size: 6vw;
+  align-self: flex-start;
+  font-style: Regular;
+  text-align: left;
+  font-family: Hermeneus One;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.studenthomepage-feedback-box {
+  width: 100%;
+  margin: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  background-color: var(--dl-color-default-blue);
+}
+.studenthomepage-feedback1 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: 1vw;
+  font-size: 1.8vw;
+  font-style: Regular;
+  text-align: left;
+  font-family: Hind;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.studenthomepage-feedback-past {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 5vw;
+  align-self: flex-start;
+  font-style: Regular;
+  text-align: left;
+  font-family: Hermeneus One;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.studenthomepage-feedback-box2 {
+  width: 100%;
+  margin: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  background-color: var(--dl-color-default-blue);
+}
+.studenthomepage-feedback2 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: 1vw;
+  font-size: 1.8vw;
+  font-style: Regular;
+  text-align: left;
+  font-family: Hind;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.studenthomepage-feedback-box3 {
+  width: 100%;
+  margin: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  background-color: var(--dl-color-default-blue);
+}
+.studenthomepage-feedback3 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  padding: 1vw;
+  font-size: 1.8vw;
+  font-style: Regular;
+  text-align: left;
+  font-family: Hind;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .studenthomepage-homeicon {
+    right: 11%;
+    max-width: auto;
+    align-self: center;
+  }
+  .studenthomepage-usericon {
+    margin-left: 2%;
+  }
+}
+@media(max-width: 767px) {
+  .studenthomepage-homeicon {
+    right: 13%;
+    align-self: center;
+  }
+}
+@media(max-width: 479px) {
+  .studenthomepage-homeicon {
+    margin-right: 2%;
+  }
+}
