@@ -2,7 +2,8 @@
   width: 100%;
   display: flex;
   overflow: auto;
-  min-height: 100  al  align-items: center;
+  min-height: 100;
+  align-items: left;
   flex-direction: column;
   padding-bottom: 5%;
   background-color: rgba(255, 248, 238, 1);
@@ -42,11 +43,11 @@
   text-decoration: none;
 }
 .meeting-content {
-  width: 60%;
+  width: 61=0%;
   height: auto;
   display: flex;
   align-items: flex-start;
-display: flex;
+  display: flex;
   align-items: flex-start;
   padding-top: 3%;
   padding-left: 10%;
