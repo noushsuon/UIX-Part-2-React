@@ -68,7 +68,7 @@
   align-self: flex-start;
   font-style: Regular;
   text-align: left;
-  font-family: Hermeneus One;
+  font-family: Georgia;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -142,7 +142,7 @@
   align-self: flex-start;
   font-style: Regular;
   text-align: left;
-  font-family: Hermeneus One;
+  font-family: Georgia;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -177,7 +177,7 @@
   align-self: flex-start;
   font-style: Regular;
   text-align: left;
-  font-family: Hermeneus One;
+  font-family: Georgia;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -277,12 +277,12 @@
   width: 25px;
   height: 95px;
   background: var(--dl-color-default-darkblue);
-  cursor: pointer;
+  cursor: poGeorgia;
 }
 
 .slider::-moz-range-thumb {
   width: 25px;
   height: 95px;
   background: var(--dl-color-default-darkblue);
-  cursor: pointer;
+  cursor: poGeorgia;
 }

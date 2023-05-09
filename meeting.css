@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   overflow: auto;
-  min-height: 100;
+  min-height: 100vh;
   align-items: left;
   flex-direction: column;
   padding-bottom: 5%;
@@ -43,8 +43,6 @@
   text-decoration: none;
 }
 .meeting-content {
-  width: 61=0%;
-  height: auto;
   display: flex;
   align-items: flex-start;
   display: flex;
@@ -58,7 +56,7 @@
   width: auto;
   height: auto;
   align-self: flex-start;
-  text-align: cente1;
+  text-align: center;
   font-stretch: normal;
 }
 .meeting-date1 {
@@ -113,7 +111,7 @@
   align-self: center;
   font-style: Regular;
   text-align: center;
-  font-family: Hermeneus One;
+  font-family: Georgia;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -139,4 +137,10 @@
   .meeting-homeicon {
     margin-right: 2%;
   }
+}
+
+input[type="radio"] {
+  width: 2vw;
+  height: 2vw;
+  background-color: var(--dl-color-default-darkblue);
 }
