@@ -108,3 +108,35 @@
     font-size: 2vw;
   }
 }
+
+.meeting-confirm {
+  width: 20vw;
+  height: 8vw;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  align-items: left;
+  padding-top: 1%;
+  border-radius: 3vw;
+  flex-direction: column;
+  padding-bottom: 1%;
+  justify-content: center;
+  background-color: var(--dl-color-default-blue);
+}
+
+.meeting-text6 {
+  color: #000000;
+  width: 100%;
+  height: auto;
+  padding: 2%;
+  font-size: 3vw;
+  align-self: center;
+  font-style: Regular;
+  text-align: center;
+  font-family: Hermeneus One;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
