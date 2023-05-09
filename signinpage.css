@@ -94,11 +94,7 @@
   border-radius: 2vw;
   padding-right: 3%;
   padding-bottom: 2%;
-  background-size: cover;
-  justify-content: center;
-  text-decoration: none;
-  background-image: url("public/playground_assets/rectangle5215-5wq-800w.png");
-  background-position: center;
+  background: var(--dl-color-default-midblue);
 }
 .signinpage-text1 {
   color: rgba(0, 0, 0, 1);
@@ -123,11 +119,7 @@
   border-radius: 2vw;
   padding-right: 3%;
   padding-bottom: 2%;
-  background-size: cover;
-  justify-content: center;
-  text-decoration: none;
-  background-image: url("public/playground_assets/rectangle5212-q0or-800w.png");
-  background-position: center;
+  background: var(--dl-color-default-darkblue);
 }
 .signinpage-text3 {
   color: rgba(255, 255, 255, 1);

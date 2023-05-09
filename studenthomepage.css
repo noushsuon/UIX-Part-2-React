@@ -75,12 +75,6 @@
   text-transform: none;
   text-decoration: none;
 }
-.studenthomepage-slider {
-  width: auto;
-  height: 90px;
-  margin: 2%;
-  align-self: flex-start;
-}
 .studenthomepage-navlink2 {
   display: contents;
 }
@@ -99,36 +93,16 @@
 }
 .studenthomepage-calendar {
   width: 30%;
-  height: auto;
+  max-height: 100%;
   display: flex;
-  position: relative;
+  position: center;
   align-self: flex-start;
   align-items: center;
   flex-shrink: 1;
   flex-direction: row;
   justify-content: center;
 }
-.studenthomepage-vector {
-  top: 0px;
-  left: 0px;
-  width: 127px;
-  height: 142px;
-  position: absolute;
-}
-.studenthomepage-vector1 {
-  top: 92.08332824707031px;
-  left: 28.33333396911621px;
-  width: 14px;
-  height: 14px;
-  position: absolute;
-}
-.studenthomepage-vector2 {
-  top: 92.08332824707031px;
-  left: 56.66666793823242px;
-  width: 42px;
-  height: 14px;
-  position: absolute;
-}
+
 .studenthomepage-text01 {
   color: rgb(0, 0, 0);
   width: 70%;
@@ -273,4 +247,42 @@
   .studenthomepage-homeicon {
     margin-right: 2%;
   }
+}
+
+.slidecontainer {
+  width: 100%;
+  height: 90px;
+  align-self: flex-start;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 60%;
+  background-image: linear-gradient(to right, #FF0000, #EFE163,#3BA666);
+  outline: none;
+  opacity: 0.7;
+  border-radius: 20px;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 95px;
+  background: var(--dl-color-default-darkblue);
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 95px;
+  background: var(--dl-color-default-darkblue);
+  cursor: pointer;
 }
