@@ -31,9 +31,6 @@
   padding-bottom: 1vh;
   text-decoration: none;
 }
-.feedback-navlink1 {
-  display: contents;
-}
 .feedback-usericon {
   align-self: center;
   max-height: 75%;
@@ -66,7 +63,7 @@
   font-size: 2vw;
   align-self: flex-start;
   min-height: 15vw;
-  font-family: Georgia;
+  font-family: Hind;
   margin-bottom: 5%;
   background-color: var(--dl-color-default-midblue);
 }

@@ -156,27 +156,6 @@
   flex-shrink: 1;
   justify-content: center;
 }
-.supervisorhomepage-vector {
-  top: 0px;
-  left: 0px;
-  width: 121px;
-  height: 125px;
-  position: absolute;
-}
-.supervisorhomepage-vector01 {
-  top: 81.25px;
-  left: 26.81744956970215px;
-  width: 13px;
-  height: 13px;
-  position: absolute;
-}
-.supervisorhomepage-vector02 {
-  top: 81.25px;
-  left: 53.634742736816406px;
-  width: 40px;
-  height: 13px;
-  position: absolute;
-}
 .supervisorhomepage-text06 {
   color: rgba(0, 0, 0, 1);
   width: 100%;
