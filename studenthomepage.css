@@ -83,6 +83,7 @@
   height: auto;
   display: flex;
   padding: 2%;
+  margin: top 10%;
   position: relative;
   align-self: flex-start;
   align-items: center;
@@ -251,14 +252,19 @@
 
 .slidecontainer {
   width: 100%;
-  height: 90px;
-  align-self: flex-start;
+  height: 100px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-radius: 3vw;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .slider {
   -webkit-appearance: none;
   appearance: none;
-  width: 100%;
+  width: 90%;
   height: 60%;
   background-image: linear-gradient(to right, #FF0000, #EFE163,#3BA666);
   outline: none;
@@ -277,12 +283,42 @@
   width: 25px;
   height: 95px;
   background: var(--dl-color-default-darkblue);
-  cursor: poGeorgia;
+  cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
   width: 25px;
   height: 95px;
   background: var(--dl-color-default-darkblue);
-  cursor: poGeorgia;
+  cursor: pointer;
+}
+
+
+.slideConfirm {
+  width: 70px;
+  height: 70%;
+  display: flex;
+  position: center;
+  align-self: flex-start;
+  align-items: center;
+  border-radius: 3vw;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-default-blue);
+  cursor: pointer;
+  margin: auto;
+}
+
+.tick {
+  color: #ffffff;
+  font-size: 1vw;
+  align-self: center;
+  font-style: Regular;
+  text-align: center;
+  font-family: Georgia;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
 }
